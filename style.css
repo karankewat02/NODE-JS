@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    cursor: pointer;
+    color: inherit;
+    transition-duration: 100ms;
+}
+a:hover{
+
+    color: #ef5f67;
+}
+
+body{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    background-color: #ef5f67;
+}
+nav{
+    text-align: center;
+    font-size: 1.75rem;
+    padding: 1rem 0;
+    color: white;
+}
+.wave1{
+    width: 100%;
+    height: 30vh;
+    background-image:url(img/wave2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+.wave2{
+    width: 100%;
+    height: 30vh;
+    background-image: url(img/wave2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: rotate(180deg);
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+.ytIcon{
+    width: 70px;
+    aspect-ratio: 1;
+    background-color: rgb(255, 104, 104);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;   
+    position: absolute; 
+    z-index: -1;
+}
+.ytIcon:nth-of-type(1){left: 20vw; top: 50%;}
+.ytIcon:nth-of-type(2){right: 20vw; top: 50%;}
+
+
+.form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    text-align: center;
+    color: white;
+}
+.form input{
+    width: 100%;
+    margin: 2rem 0;
+    padding:1rem;
+    background: rgb(255, 104, 104);
+    border: 3px solid white;
+    border-radius: 100vw;
+    min-width: 400px;
+    color: white;
+    z-index: 100;
+}
+.form input::placeholder{
+    color: rgba(255, 255, 255, 0.726);
+    font-size: 1rem; 
+    caret-color: red;
+}
+.form button{
+    cursor: pointer;
+    background-color: rgb(255, 104, 104);
+    border-radius: 2rem;
+    color: white;
+    padding: .75rem 1.5rem;
+    border:2px solid white;
+    z-index: 100;
+}
+footer{
+    text-align: center;
+    transform: rotateZ(-180deg);
+    color: white;
+    padding: 2rem;
+}
+
+/* 
+
+.ytIcon:nth-of-type(3){left: 30vw; bottom: 10vh;}
+.ytIcon:nth-of-type(4){left: 80vw; top: 45vh;}
+.ytIcon:nth-of-type(5){left: 50vw; bottom: 50vh;}
+.ytIcon:nth-of-type(6){left: 70rem; bottom: 35vh;}
+.ytIcon:nth-of-type(7){left: 70rem; top: 70vh;}
+
+
+nav{
+    text-align: center;
+    font-size: 1.75rem;
+    color: white;
+    padding: 1rem 0;
+}
+.form{
+    margin: 5% 0 ;
+    text-align: center;
+}
+.form input{
+    width: 60vw;
+    margin: 2rem 0;
+    padding:1rem;
+    background: rgb(255, 104, 104);
+    border: 3px solid white;
+    border-radius: 100vw;
+    min-width: 400px;
+    color: white;
+    z-index: 100;
+}
+
+button{
+    background-color: rgb(255, 104, 104);
+    border-radius: 2rem;
+    color: white;
+    padding: 1rem;
+    border:2px solid white;
+    z-index: 100;
+} */
+ 
