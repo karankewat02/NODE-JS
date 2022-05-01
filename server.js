@@ -8,6 +8,10 @@ app.listen(process.env.PORT || 4000,()=>{
     console.log('server running at port 4000')
 })
 
+app.get('/',(req,res)=>{
+    res.send("Hello There !!!")
+})
+
 app.get('/download', (req,res)=>{
     var URL = req.query.URL;
     res.header('Content-Disposition', 'attachment; filename=video.mp4');

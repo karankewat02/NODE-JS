@@ -104,43 +104,19 @@ footer{
     padding: 2rem;
 }
 
-/* 
 
-.ytIcon:nth-of-type(3){left: 30vw; bottom: 10vh;}
-.ytIcon:nth-of-type(4){left: 80vw; top: 45vh;}
-.ytIcon:nth-of-type(5){left: 50vw; bottom: 50vh;}
-.ytIcon:nth-of-type(6){left: 70rem; bottom: 35vh;}
-.ytIcon:nth-of-type(7){left: 70rem; top: 70vh;}
+@media only screen and (max-width: 600px) {
 
+    nav{
+        padding:.5rem 2rem;
+        font-size: 1.5rem;
+    }
+    .form h1{
+        font-size: 1.25rem;
+    }
+    .form input{
+        min-width: 250px;       
+        padding: 1rem;
+    }
 
-nav{
-    text-align: center;
-    font-size: 1.75rem;
-    color: white;
-    padding: 1rem 0;
 }
-.form{
-    margin: 5% 0 ;
-    text-align: center;
-}
-.form input{
-    width: 60vw;
-    margin: 2rem 0;
-    padding:1rem;
-    background: rgb(255, 104, 104);
-    border: 3px solid white;
-    border-radius: 100vw;
-    min-width: 400px;
-    color: white;
-    z-index: 100;
-}
-
-button{
-    background-color: rgb(255, 104, 104);
-    border-radius: 2rem;
-    color: white;
-    padding: 1rem;
-    border:2px solid white;
-    z-index: 100;
-} */
- 

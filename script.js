@@ -10,7 +10,7 @@ button.addEventListener('click',()=>{
 
 function sendURL(URL){
 
-    window.location.href=`http://localhost:4000/download?URL=${URL}`
+    window.location.href=`https://immense-badlands-68607.herokuapp.com/download?URL=${URL}`
     
     // fetch(`http://localhost:4000/download?URL=${URL}`,{
     //     method : 'GET'
